@@ -1,0 +1,17 @@
+
+elseif game.PlaceId == 2753915549 then
+    -- Main BloxFruit Sea1
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/viperobii/ViperisEnot/refs/heads/main/NovaCatHubKaitan.lua.txt"))()
+
+elseif game.PlaceId == 4442272183 then
+    -- Main BloxFruit Sea2
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/viperobii/ViperisEnot/refs/heads/main/NovaCatHubKaitan.lua.txt"))()
+
+elseif game.PlaceId == 7449423635 then
+    -- Main BloxFruit Sea3
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/viperobii/ViperisEnot/refs/heads/main/NovaCatHubKaitan.lua.txt"))()
+
+if game.PlaceId == 126884695634066 then
+    -- Grow Garden
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/viperobii/xShibal/refs/heads/main/GrowGardenXViper.lua"))()
+end
