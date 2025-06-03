@@ -98,7 +98,7 @@ local title = Instance.new("TextLabel")
 title.Size = UDim2.new(1, -20, 0, 40)
 title.Position = UDim2.new(0, 10, 0, 90)
 title.BackgroundTransparency = 1
-title.Text = "Hutao Hub"
+title.Text = "Swipe Hub"
 title.TextColor3 = Color3.fromRGB(255, 255, 255)
 title.Font = Enum.Font.FredokaOne
 title.TextSize = 32
@@ -325,7 +325,7 @@ notify("Auto Bond", "This's just beta version, so there may be some errors/bugs.
 
 local Notif = loadstring(game:HttpGet("https://raw.githubusercontent.com/hungquan99/Interface/main/Notify.lua"))()
 if game.PlaceId == 70876832253163 or game.PlaceId == 98018823628597 then
-    Notif.New("[Hutao Hub] Auto Bond Loaded!", 5)
+    Notif.New("[Swipe Hub] Auto Bond Loaded!", 5)
 
     -- Hiển thị GUI ngay khi khởi động
     toggleMinimize()
@@ -336,6 +336,6 @@ if game.PlaceId == 70876832253163 or game.PlaceId == 98018823628597 then
     end)
 
     if not success then
-        warn("[Hutao Hub] Auto Bond script failed to load:", err)
+        warn("[Swipe Hub] Auto Bond script failed to load:", err)
     end
 end
