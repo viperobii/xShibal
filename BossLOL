@@ -1,3 +1,5 @@
+--Hutao Ded Rails
+
 if getgenv().SkullHubDrBond then return end
 getgenv().SkullHubDrBond = true
 
@@ -323,7 +325,7 @@ notify("Auto Bond", "This's just beta version, so there may be some errors/bugs.
 
 local Notif = loadstring(game:HttpGet("https://raw.githubusercontent.com/hungquan99/Interface/main/Notify.lua"))()
 if game.PlaceId == 70876832253163 or game.PlaceId == 98018823628597 then
-    Notif.New("[Swipe Hub] Auto Bond Loaded!", 5)
+    Notif.New("[Hutao Hub] Auto Bond Loaded!", 5)
 
     -- Hiển thị GUI ngay khi khởi động
     toggleMinimize()
@@ -334,6 +336,6 @@ if game.PlaceId == 70876832253163 or game.PlaceId == 98018823628597 then
     end)
 
     if not success then
-        warn("[Swipe Hub] Auto Bond script failed to load:", err)
+        warn("[Hutao Hub] Auto Bond script failed to load:", err)
     end
 end
