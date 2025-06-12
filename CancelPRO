@@ -15,6 +15,6 @@ if game.PlaceId == 70876832253163 or game.PlaceId == 98018823628597 then
     end)
 
     if not success then
-        warn("[Swipe Hub] Auto Bond script failed to load:", err)
+        warn("[Visual Hub] Auto Bond script failed to load:", err)
     end
 end
