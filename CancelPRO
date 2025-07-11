@@ -7,7 +7,7 @@ local Notif = loadstring(game:HttpGet("https://raw.githubusercontent.com/hungqua
 
 -- Only run if in supported places
 if game.PlaceId == 70876832253163 or game.PlaceId == 98018823628597 then
-    Notif.New("[Visual Hub] Auto Bond Loaded!", 5)
+    Notif.New("[UnityEngine] Auto Bond Loaded!", 5)
 
     -- Load Auto Bond script
     local success, err = pcall(function()
@@ -15,6 +15,6 @@ if game.PlaceId == 70876832253163 or game.PlaceId == 98018823628597 then
     end)
 
     if not success then
-        warn("[Visual Hub] Auto Bond script failed to load:", err)
+        warn("[UnityEngine] Auto Bond script failed to load:", err)
     end
 end
