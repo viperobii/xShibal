@@ -334,8 +334,8 @@ local Compkiller = {
 	Logo = "rbxassetid://120245531583106",
 	Windows = {},
 	Scale = {
-		Window = UDim2.new(500, 350),
-		Mobile = UDim2.new(500, 350),
+		Window = UDim2.new(0, 500,0, 350),
+		Mobile = UDim2.new(0, 500,0, 350),
 		TabOpen = 185,
 		TabClose = 85,
 	},
